@@ -16,7 +16,13 @@ label.xng-breadcrumb-trail {
 }
 
 /* Importing Bootstrap SCSS file. */
-@import "~bootstrap/scss/bootstrap";
+// @import "~bootstrap/scss/bootstrap";
 
-/* Importing Datepicker SCSS file. */
-@import "~ngx-bootstrap/datepicker/bs-datepicker";
+// /* Importing Datepicker SCSS file. */
+// @import "~ngx-bootstrap/datepicker/bs-datepicker";
+
+/* Importing Bootswatch Theme. */
+// @import '../node_modules/bootswatch/dist/united/bootstrap.min.css';
+
+/* Importing Font Awesome */
+// @import '../node_modules/font-awesome/css/font-awesome.min.css';
