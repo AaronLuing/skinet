@@ -10,11 +10,11 @@ using Microsoft.IdentityModel.Tokens;
 
 namespace Infrastructure.Services
 {
-  public class TokenServices : ITokenService
+  public class TokenService : ITokenService
   {
     private readonly IConfiguration _config;
     private readonly SymmetricSecurityKey _key;
-    public TokenServices(IConfiguration config)
+    public TokenService(IConfiguration config)
     {
       _config = config;
       _key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["Token:Key"]));
