@@ -23,7 +23,7 @@ export class LoginComponent implements OnInit {
   }
 
   onSubmit() {
-    console.log(this.logInForm.value)
+    console.log(this.logInForm.value);
   }
 
 }
